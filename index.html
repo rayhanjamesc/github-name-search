@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="description" content="A webpage to learn how to search for Github usernames with it's API">
+        <title>Github Profile Viewer</title>
+        <link rel="icon" type="image/x-icon" href="GitHub_logo.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Github Profile Viewer</h1>
+        <label for="username">Github Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter Github username">
+        <button onclick="fetchProfile()">Fetch Profile</button>
+        <div id="profile">
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
